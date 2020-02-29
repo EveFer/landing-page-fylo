@@ -61,62 +61,60 @@ This challenge is completely free. Please share it with anyone who will find it 
 
 ## Semantica
 
-
--Container
-    -row
-        div.col-12
-            Header
-                nav
-                    a-logo
-                    ul
-                        li>a*3
-    -row
-        div.col-12
-            img
-            h2
-            p
-            button
-    -row
-        div.col-12 col.md-6
-            article- Access your files ..
-            article - Real time
-        div.col-12 col-md-6
-            article - Security
-            article - Store
-    -row
-        div.col-12 col.md-6
-            imagen
-        div.col-12 col.md-6
-            h3 - Stay.
-            p * 2
-            a
-    -row
-        div.col-12 col.md-4
-            icono - comillas
-            Card
-        div.col-12 col.md-4
-            Card
-        div.col-12 col.md-4
-            Card
-    -rwo
-        col-12
-            div.Subcription
-                h3 - Get ..
-                p
-                form
-                    input
-                    button
-    -rwo
-        div.col-12 .col-md-6
-            div.logo
-            div.address-contact
-                icon - p
-                icons - contact
-        div.col-12 .col-md-3
-            ul
-                li>a*4
-            ul
-                li>a*3
-        div.col-12 .col-md-3
-            ul
-                li>a*3
+- div.Container-fluid
+    - Row
+        - div.col-12
+            - Header
+                - Nav
+                    - ul
+                        - li>a*3
+    - Row
+        - div.col-12
+            - img
+            - h2
+            - p
+            - button
+    - Row
+        - div.col-12 col.md-6
+            - article- Access your files ..
+            - article - Real time
+        - div.col-12 col.md-6
+            - article - Security
+            - article - Store
+    - Row
+        - div.col-12 col.md-6
+            - imagen
+        - div.col-12 col.md-6
+            - h3 - Stay.
+            - p * 2
+            - a
+    - Row
+        - div.col-12 col.md-4
+            - icono - comillas
+            - Card
+        - div.col-12 col.md-4
+            - Card
+        - div.col-12 col.md-4
+            - Card
+    - Row
+        - div.col-12
+            - div.Subcription
+                - h3 - Get ..
+                - p
+                - form
+                    - input
+                    - button
+    - Row
+        - div.col-12 .col-md-6
+            - div.logo
+            - div.address-contact
+                - icon - p
+                - icons - contact
+        - div.col-12 .col-md-3
+            - ul
+                - li>a*4
+            - ul
+                - li>a*3
+        - div.col-12 .col-md-3
+            - ul
+                - li>a*3
