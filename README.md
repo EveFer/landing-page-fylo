@@ -62,35 +62,35 @@ This challenge is completely free. Please share it with anyone who will find it 
 ## Semantica
 
 
-Container
-    row
+-Container
+    -row
         div.col-12
             Header
                 nav
                     a-logo
                     ul
                         li>a*3
-    row
+    -row
         div.col-12
             img
             h2
             p
             button
-    row
+    -row
         div.col-12 col.md-6
             article- Access your files ..
             article - Real time
         div.col-12 col-md-6
             article - Security
             article - Store
-    row
+    -row
         div.col-12 col.md-6
             imagen
         div.col-12 col.md-6
             h3 - Stay.
             p * 2
             a
-    row
+    -row
         div.col-12 col.md-4
             icono - comillas
             Card
@@ -98,7 +98,7 @@ Container
             Card
         div.col-12 col.md-4
             Card
-    rwo
+    -rwo
         col-12
             div.Subcription
                 h3 - Get ..
@@ -106,7 +106,7 @@ Container
                 form
                     input
                     button
-    rwo
+    -rwo
         div.col-12 .col-md-6
             div.logo
             div.address-contact

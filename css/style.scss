@@ -3,3 +3,7 @@ $c-main-bg: hsl(218, 28%, 13%);
 $c-footer-bg: hsl(216, 53%, 9%);
 $c-testimonials-bg: hsl(219, 30%, 18%);
 $c-a: hsl(228, 45%, 44%);
+
+.bg-container {
+    background-color: $c-main-bg;
+}
