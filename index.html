@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
+  <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
 
 </head>
+
 <body>
 
   <div class="container-fluid bg-container">
@@ -24,19 +29,86 @@
     </div>
     <div class="row">
       <!--  Bussiness Information - Fer -->
+      <div class="col-12 col-md-6">
+        <div class="card border-0 pb-5 bg-container">
+          <span class="card-img-top mx-auto icon-access"></span>
+          <div class="card-body text-center text-white">
+            <h5 class="card-title font-weight-bold">Access your files, anywhere</h5>
+            <p class="card-text">The ability to use a smartphone, tablet, or computer to access your account means your
+              files follow you everywhere.</p>
+          </div>
+        </div>
+
+        <div class="card border-0 pb-5 bg-container">
+          <span class="card-img-top mx-auto icon-collaborator"></span>
+          <div class="card-body text-center text-white">
+            <h5 class="card-title font-weight-bold">Real-time collaboration</h5>
+            <p class="card-text">Securely share files and folders with friends, family and colleagues for live
+              collaboration.
+              No email attachments required.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="card border-0 pb-4 bg-container">
+          <span class="card-img-top mx-auto icon-security"></span>
+          <div class="card-body text-center text-white">
+            <h5 class="card-title font-weight-bold">Security you can trust</h5>
+            <p class="card-text">2-factor authentication and user-controlled encryption are just a couple of the
+              security
+              features we allow to help secure your files.</p>
+          </div>
+        </div>
+
+        <div class="card border-0 pb-5 bg-container">
+          <span class="card-img-top mx-auto icon-file"></span>
+          <div class="card-body text-center text-white">
+            <h5 class="card-title font-weight-bold">Store any type of file</h5>
+            <p class="card-text">Whether you're sharing holidays photos or work documents, Fylo has you covered allowing
+              for all
+              file types to be securely stored and shared.</p>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="row">
       <!-- See How - Fer-->
+      <div class="col-12 col-md-6 pb-5">
+        <picture>
+          <img src="./images/illustration-stay-productive.png" class="img-fluid" alt="">
+        </picture>
+      </div>
+      <div class="col-12 col-md-6 m-auto">
+        <div class="text-white">
+          <h3>
+            <span class="font-weight-bold d-md-block pb-1 font-size ">Stay productive, </span>
+            <span class="font-weight-bold d-md-block pb-2 font-size ">wherever you are</span>
+          </h3>
+          <p class="pt-2">
+            Never let location be an issue when accessing your files. Fylo has you covered for all of your file
+            storage needs.
+          </p>
+          <p>
+            Securely share files and folders with friends, family and colleagues for live collaboration. No email
+            attachments required.
+          </p>
+
+          <a href="#" class="text-decoration d-flex align-items-center">See how Fylo works <span
+              class=" icon-arrow"></span></a>
+          <hr class="border-down">
+        </div>
+      </div>
     </div>
-    <div class="row">
-      <!-- Personal comments  - El que acabe primero -->
-    </div>
-    <div class="row">
-      <!-- Subcirption  - Tavo-->
-    </div>
-    <div class="row">
-      <!-- Footer  - Tavo-->
-    </div>
+  </div>
+  <div class="row">
+    <!-- Personal comments  - El que acabe primero -Fer -->
+  </div>
+  <div class="row">
+    <!-- Subcirption  - Tavo-->
+  </div>
+  <div class="row">
+    <!-- Footer  - Tavo-->
+  </div>
   </div>
 
 
@@ -130,12 +202,13 @@
     </p>
   </footer> -->
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
   </script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
   </script>
 </body>
+
 </html>

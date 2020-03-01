@@ -1,9 +1,131 @@
-$c-subscription:  hsl(217, 28%, 15%);
+/*Colors*/
+$c-subscription: hsl(217, 28%, 15%);
 $c-main-bg: hsl(218, 28%, 13%);
 $c-footer-bg: hsl(216, 53%, 9%);
 $c-testimonials-bg: hsl(219, 30%, 18%);
 $c-a: hsl(228, 45%, 44%);
+$cyan: hsl(176, 68%, 64%);
+$blue: hsl(198, 60%, 50%);
+$White: hsl(0, 0%, 100%);
+$desktop: 768px;
 
+/*Fonts*/
+/*Headings, call-to-action, Header, Navigation*/
+$raleway: 'Raleway';
+/*Body*/
+$OpenSans: 'Open Sans';
+
+/*icons*/
+$icon-access: '../images/icon-access-anywhere.svg';
+$icon-collaborator: '../images/icon-collaboration.svg';
+$icon-security: '../images/icon-security.svg';
+$icon-file: '../images/icon-any-file.svg';
+$icon-arrow: '../images/icon-arrow.svg';
+
+
+/*Mixins*/
+@mixin desktop {
+    @media screen and (min-width: #{$desktop}) {
+        @content;
+    }
+}
+
+body {
+    font-family: $OpenSans;
+}
+
+header,
+a,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: $raleway;
+}
+
+/* Background- main */
 .bg-container {
     background-color: $c-main-bg;
+}
+
+
+.icon {
+    width: 90px;
+    height: 89px;
+}
+
+/*Section Bussiness Information */
+
+.icon-access {
+    @extend .icon;
+    background-image: url($icon-access);
+    background-repeat: no-repeat;
+}
+
+.icon-collaborator {
+    @extend .icon;
+    background-image: url($icon-collaborator);
+    background-repeat: no-repeat;
+}
+
+.icon-security {
+    @extend .icon;
+    background-image: url($icon-security);
+    background-repeat: no-repeat;
+}
+
+/*------------------*/
+
+/* Section See How */
+.icon-file {
+    @extend .icon;
+    background-image: url($icon-file);
+    background-repeat: no-repeat;
+}
+
+.icon-arrow {
+    // @extend .icon;
+    width: 15px;
+    height: 15px;
+    background-image: url($icon-arrow);
+    background-repeat: no-repeat;
+    display: block;
+    margin-left: 8px;
+    margin-bottom: 4px;
+}
+
+.font-size {
+    font-size: 18px;
+}
+
+.border-down {
+    border-bottom: 1px solid $blue;
+    width: 165px;
+    margin: 0 auto 2% 0;
+}
+
+.text-decoration {
+    color: $cyan;
+    text-decoration: none;
+
+
+    &:hover {
+        color: $blue;
+        text-decoration: none;
+    }
+}
+
+/*------------------*/
+
+/*Media Query*/
+
+@include desktop {
+
+    /*Section see how*/
+    .font-size {
+        font-size: 38px;
+    }
+
+    /*-----*/
 }
