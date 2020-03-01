@@ -1,4 +1,93 @@
+/*Colors*/
+/*Fonts*/
+/*Headings, call-to-action, Header, Navigation*/
+/*Body*/
+/*icons*/
+/*Mixins*/
+body {
+  font-family: "Open Sans";
+}
+
+header,
+a,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Raleway";
+}
+
+/* Background- main */
 .bg-container {
   background-color: #181f2a;
+}
+
+.icon, .icon-access, .icon-collaborator, .icon-security, .icon-file {
+  width: 90px;
+  height: 89px;
+}
+
+/*Section Bussiness Information */
+.icon-access {
+  background-image: url("../images/icon-access-anywhere.svg");
+  background-repeat: no-repeat;
+}
+
+.icon-collaborator {
+  background-image: url("../images/icon-collaboration.svg");
+  background-repeat: no-repeat;
+}
+
+.icon-security {
+  background-image: url("../images/icon-security.svg");
+  background-repeat: no-repeat;
+}
+
+/*------------------*/
+/* Section See How */
+.icon-file {
+  background-image: url("../images/icon-any-file.svg");
+  background-repeat: no-repeat;
+}
+
+.icon-arrow {
+  width: 15px;
+  height: 15px;
+  background-image: url("../images/icon-arrow.svg");
+  background-repeat: no-repeat;
+  display: block;
+  margin-left: 8px;
+  margin-bottom: 4px;
+}
+
+.font-size {
+  font-size: 18px;
+}
+
+.border-down {
+  border-bottom: 1px solid #339ecc;
+  width: 165px;
+  margin: 0 auto 2% 0;
+}
+
+.text-decoration {
+  color: #65e2d9;
+  text-decoration: none;
+}
+
+.text-decoration:hover {
+  color: #339ecc;
+  text-decoration: none;
+}
+
+/*------------------*/
+/*Media Query*/
+@media screen and (min-width: 768px) {
+  /*Section see how*/
+  .font-size {
+    font-size: 38px;
+  }
+  /*-----*/
 }
 /*# sourceMappingURL=style.css.map */
