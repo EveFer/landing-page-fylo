@@ -1,0 +1,60 @@
+<footer class="bg-footer">
+      <div class="row bg-footer mb-1 ml-2 px-md-5 mx-md-2 m-0 ">
+        <div class="col-12 col-md-6">
+          <span class="footer-icon-fylo"></span>
+        </div>
+      </div>
+      <div class="row w-100 bg-footer pl-md-2 ml-xl-2 px-3
+        justify-content-md-between
+      ">
+        <div class="col-12 p-0 col-md-3 mr-5
+        d-flex
+        ">
+          <span class="footer-icon-location"></span>
+          <p class="text-white w-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+            dolore magna aliqua
+          </p>
+        </div>
+        <div class="col-12 p-0 mr-5 mb-4 col-md-2 pl-0">
+          <div class="d-flex">
+            <span class="footer-icon-phone"></span>
+            <p class="text-white">+1-543-123-4567</p>
+          </div>
+          <div class="d-flex">
+            <span class="footer-icon-email pr-4"></span>
+            <p class="text-white">example@fylo.com</p>
+          </div>
+        </div>
+        <div class="col-12 pl-0 mr-1 mb-4 col-md-2">
+          <ul class="pl-0">
+            <li class="mb-2"><a class="text-white" href="!#">About Us</a></li>
+            <li class="mb-2"><a class="text-white" href="!#">Jobs</a></li>
+            <li class="mb-2"><a class="text-white" href="!#">Press</a></li>
+            <li><a class="text-white" href="!#">Blog</a></li>
+          </ul>
+        </div>
+        <div class="col-12 pl-0 mr-1 mb-4 col-md-2">
+          <ul class="pl-0">
+            <li class="mb-2"><a class="text-white" href="!#">Contact Us</a></li>
+            <li class="mb-2"><a class="text-white" href="!#">Terms</a></li>
+            <li><a class="text-white" href="!#">Privacy</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-2 mb-5">
+          <div class="network-contact
+            d-flex
+            justify-content-center
+        ">
+            <div class="d-circulo border border-white rounded-circle d-flex justify-content-center align-items-center">
+              <a href="!#"><span class="fab fa-facebook-f fab-color"></span></a>
+            </div>
+            <div class="d-circulo border border-white rounded-circle d-flex justify-content-center align-items-center mx-2">
+              <a href="#!"><span class="fab fa-twitter fab-color"></span></a>
+            </div>
+            <div class="d-circulo border border-white rounded-circle d-flex justify-content-center align-items-center">
+              <a href="!#"><span class="fab fa-instagram fab-color"></span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
