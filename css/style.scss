@@ -21,6 +21,11 @@ $icon-collaborator: '../images/icon-collaboration.svg';
 $icon-security: '../images/icon-security.svg';
 $icon-file: '../images/icon-any-file.svg';
 $icon-arrow: '../images/icon-arrow.svg';
+$icon-logo: '../images/logo.svg';
+$icon-phone: '../images/icon-phone.svg';
+$icon-location: '../images/icon-location.svg';
+$icon-email: '../images/icon-email.svg';
+$icon-facebook: '../images/icon-email.svg';
 
 
 /*Mixins*/
@@ -137,6 +142,95 @@ h5 {
     margin-top: 192px;
 }
 
+/*--------SUBSCRIPTION----------*/
+
+form {
+    background-color: $c-subscription;
+    box-shadow: 0 0 40px  #121923;
+    border-radius: 20px;
+    width: 90%;
+    height: auto;
+    margin-bottom: 70px;
+    position: relative;
+    top: 170px;
+    
+    &:hover {
+        box-shadow: 0 0 50px #070f1a;
+        transition: 0.7s;
+    }
+
+    .form-group .btn {
+        background-color: $blue;
+    }
+
+    .position-form {
+        position: absolute !important;
+        top: -100px;
+    }
+}
+
+/*--------FOOTER----------*/
+footer {
+    padding-top: 60%;
+}
+.bg-footer {
+    background-color: $c-footer-bg;
+    margin: 0 !important;
+}
+
+.logo {
+    width: 300px;
+    height: 90px;}
+
+.icons-footer {
+    width: 50px;
+    height: 25px;
+    display: block;
+    background-repeat: no-repeat;
+}
+
+.footer-icon-fylo {
+    @extend .logo;
+    display: block;
+    background-image: url($icon-logo);
+    background-repeat: no-repeat;
+}
+
+.footer-icon-phone {
+    @extend .icons-footer;
+    background-image: url($icon-phone);
+}
+
+.footer-icon-location {
+    @extend .icons-footer;
+    background-image: url($icon-location);
+}
+
+.footer-icon-email {
+    @extend .icons-footer;
+    background-image: url($icon-email);
+}
+
+.footer-icon-facebook {
+    @extend .icons-footer;
+    background-image: url($icon-email);
+}
+
+.d-circulo {
+    min-width: 35px;
+    min-height: 35px;
+
+    .fab-color {
+        color: white;
+    }
+}
+
+ul li {
+    list-style:none;
+}
+
+/*------------------*/
+
 /*Media Query*/
 
 @include desktop {
@@ -146,6 +240,17 @@ h5 {
         font-size: 38px;
     }
 
+    form {
+        width: 80%;
+    }
+
+    .width-email {
+        width: 64%;
+    }
+
+    .width-submit {
+        width: 32.5%;
+    }
     /*-----*/
 
     .down-card {
