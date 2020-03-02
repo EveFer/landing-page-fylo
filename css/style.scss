@@ -16,11 +16,13 @@ $raleway: 'Raleway';
 $OpenSans: 'Open Sans';
 
 /*icons*/
+
 $icon-access: '../images/icon-access-anywhere.svg';
 $icon-collaborator: '../images/icon-collaboration.svg';
 $icon-security: '../images/icon-security.svg';
 $icon-file: '../images/icon-any-file.svg';
 $icon-arrow: '../images/icon-arrow.svg';
+$logo-file: '../images/logo.svg';
 
 
 /*Mixins*/
@@ -33,6 +35,8 @@ $icon-arrow: '../images/icon-arrow.svg';
 body {
     font-family: $OpenSans;
 }
+
+
 
 header,
 a,
@@ -50,10 +54,63 @@ h5 {
 }
 
 
+.bg-hdr-strt {
+
+    background-color: $c-testimonials-bg;
+}
+
 .icon {
     width: 90px;
     height: 89px;
 }
+
+.logo {
+    width: 200px;
+    height: 89px;
+    
+   
+}
+
+.list-group {
+
+ align-items: flex-end;
+    
+}
+
+/*Header Section*/
+
+.logo-header {
+    @extend .logo;
+    background-image: url($logo-file);
+    background-repeat: no-repeat;
+    
+}
+
+.logo-header 
+/*Start Section*/
+
+.text{
+    display: flex;
+    max-width: 500px;
+    text-align: right;
+        
+    }
+
+
+
+    .btn-info {
+        
+        font-size: 18px;
+        color: $White;
+        letter-spacing: 1px;
+        line-height: 15px;
+        border-radius: 40px;
+        background: $blue;
+        transition: all 0.3s ease 0s;
+        width: 250px;
+        height: 50px;
+        
+      }
 
 /*Section Bussiness Information */
 
