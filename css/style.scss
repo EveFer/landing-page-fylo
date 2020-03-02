@@ -32,6 +32,7 @@ $icon-arrow: '../images/icon-arrow.svg';
 
 body {
     font-family: $OpenSans;
+    font-size: 14px;
 }
 
 header,
@@ -118,6 +119,24 @@ h5 {
 
 /*------------------*/
 
+/* Section testimonials*/
+.bg-testimonials {
+    background-color: $c-testimonials-bg;
+}
+
+.position-relative {
+    top: -37px;
+    right: 6px;
+}
+
+.position-absolute {
+    top: 17px;
+}
+
+.down-card {
+    margin-top: 192px;
+}
+
 /*Media Query*/
 
 @include desktop {
@@ -128,4 +147,8 @@ h5 {
     }
 
     /*-----*/
+
+    .down-card {
+        margin-top: unset;
+    }
 }
