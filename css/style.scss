@@ -35,6 +35,12 @@ $icon-facebook: '../images/icon-email.svg';
     }
 }
 
+@mixin mobile {
+    @media screen and (min-width: 375px) {
+        @content
+    }
+}
+
 body {
     font-family: $OpenSans;
     font-size: 14px;
@@ -129,31 +135,37 @@ h5 {
     background-color: $c-testimonials-bg;
 }
 
-.position-relative {
+.pos-relative {
+    position: relative !important;
     top: -37px;
     right: 6px;
 }
 
-.position-absolute {
-    top: 17px;
+.pos-absolute {
+    position: absolute !important;
+    top: -1px;
 }
 
 .down-card {
-    margin-top: 192px;
+    margin-top: 252px;
+}
+
+.down-card-1 {
+    margin-top: 16px;
 }
 
 /*--------SUBSCRIPTION----------*/
 
 form {
     background-color: $c-subscription;
-    box-shadow: 0 0 40px  #121923;
+    box-shadow: 0 0 40px #121923;
     border-radius: 20px;
     width: 90%;
     height: auto;
     margin-bottom: 70px;
     position: relative;
     top: 170px;
-    
+
     &:hover {
         box-shadow: 0 0 50px #070f1a;
         transition: 0.7s;
@@ -173,6 +185,7 @@ form {
 footer {
     padding-top: 60%;
 }
+
 .bg-footer {
     background-color: $c-footer-bg;
     margin: 0 !important;
@@ -180,7 +193,8 @@ footer {
 
 .logo {
     width: 300px;
-    height: 90px;}
+    height: 90px;
+}
 
 .icons-footer {
     width: 50px;
@@ -226,12 +240,21 @@ footer {
 }
 
 ul li {
-    list-style:none;
+    list-style: none;
 }
 
 /*------------------*/
 
 /*Media Query*/
+@include mobile {
+    .down-card {
+        margin-top: 209px;
+    }
+
+    .down-card-1 {
+        margin-top: 20px;
+    }
+}
 
 @include desktop {
 
@@ -251,9 +274,14 @@ ul li {
     .width-submit {
         width: 32.5%;
     }
+
     /*-----*/
 
     .down-card {
+        margin-top: unset;
+    }
+
+    .down-card-1 {
         margin-top: unset;
     }
 }
