@@ -55,7 +55,8 @@ h5 {
 
 
 .bg-hdr-strt {
-
+    position: relative;
+    z-index: 1;
     background-color: $c-testimonials-bg;
 }
 
@@ -86,15 +87,25 @@ h5 {
     
 }
 
-.logo-header 
+
 /*Start Section*/
 
 .text{
     display: flex;
     max-width: 500px;
-    text-align: right;
+    text-align: center;
         
     }
+
+.mountaind {
+    position: absolute;
+    z-index:-1;
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100%;
+    display: block;
+    align-self: stretch;
+}
 
 
 

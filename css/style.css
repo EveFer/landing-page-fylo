@@ -24,6 +24,8 @@ h5 {
 }
 
 .bg-hdr-strt {
+  position: relative;
+  z-index: 1;
   background-color: #202a3c;
 }
 
@@ -49,12 +51,25 @@ h5 {
   background-repeat: no-repeat;
 }
 
-.logo-header .text {
+/*Start Section*/
+.text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   max-width: 500px;
-  text-align: right;
+  text-align: center;
+}
+
+.mountaind {
+  position: absolute;
+  z-index: -1;
+  margin-left: 0;
+  margin-right: 0;
+  max-width: 100%;
+  display: block;
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
 }
 
 .btn-info {
