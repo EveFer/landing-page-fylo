@@ -24,9 +24,70 @@ h5 {
   background-color: #181f2a;
 }
 
+.bg-hdr-strt {
+  background-color: #202a3c;
+}
+
 .icon, .icon-access, .icon-collaborator, .icon-security, .icon-file {
   width: 90px;
   height: 89px;
+}
+
+.logo, .logo-header, .footer-icon-fylo {
+  width: 200px;
+  height: 89px;
+}
+
+.list-group {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+/*Header Section*/
+.logo-header {
+  background-image: url("../images/logo.svg");
+  background-repeat: no-repeat;
+}
+
+/*Start Section*/
+.text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 500px;
+  text-align: center;
+}
+
+.mountaind {
+  position: absolute;
+  z-index: -1;
+  margin-left: 0;
+  margin-right: 0;
+  max-width: 100%;
+  display: block;
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+}
+
+.btn-info {
+  font-size: 18px;
+  color: white;
+  letter-spacing: 1px;
+  line-height: 15px;
+  border-radius: 40px;
+  background: #339ecc;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  width: 250px;
+  height: 50px;
+}
+
+.bg-curvy {
+  background-image: url("../images/bg-curvy-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
 }
 
 /*Section Bussiness Information */
@@ -146,7 +207,7 @@ footer {
   margin: 0 !important;
 }
 
-.logo, .footer-icon-fylo {
+.logo, .logo-header, .footer-icon-fylo {
   width: 300px;
   height: 90px;
 }
@@ -219,11 +280,16 @@ ul li {
     width: 32.5%;
   }
   /*-----*/
+  /*---- Testimonials ---- */
   .down-card {
     margin-top: unset;
   }
   .down-card-1 {
     margin-top: unset;
+  }
+  /**/
+  .bg-curvy {
+    background-image: url("../images/bg-curvy-desktop.svg");
   }
 }
 /*# sourceMappingURL=style.css.map */

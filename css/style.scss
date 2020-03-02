@@ -16,6 +16,7 @@ $raleway: 'Raleway';
 $OpenSans: 'Open Sans';
 
 /*icons*/
+
 $icon-access: '../images/icon-access-anywhere.svg';
 $icon-collaborator: '../images/icon-collaboration.svg';
 $icon-security: '../images/icon-security.svg';
@@ -26,6 +27,9 @@ $icon-phone: '../images/icon-phone.svg';
 $icon-location: '../images/icon-location.svg';
 $icon-email: '../images/icon-email.svg';
 $icon-facebook: '../images/icon-email.svg';
+$logo-file: '../images/logo.svg';
+$bg-curvy-desktop: '../images/bg-curvy-desktop.svg';
+$bg-curvy-mobile: '../images/bg-curvy-mobile.svg';
 
 
 /*Mixins*/
@@ -46,6 +50,8 @@ body {
     font-size: 14px;
 }
 
+
+
 header,
 a,
 h1,
@@ -62,9 +68,79 @@ h5 {
 }
 
 
+.bg-hdr-strt {
+    // position: relative;
+    // z-index: 1;
+    background-color: $c-testimonials-bg;
+}
+
 .icon {
     width: 90px;
     height: 89px;
+}
+
+.logo {
+    width: 200px;
+    height: 89px;
+
+
+}
+
+.list-group {
+
+    align-items: flex-end;
+
+}
+
+/*Header Section*/
+
+.logo-header {
+    @extend .logo;
+    background-image: url($logo-file);
+    background-repeat: no-repeat;
+
+}
+
+
+/*Start Section*/
+
+.text {
+    display: flex;
+    max-width: 500px;
+    text-align: center;
+
+}
+
+.mountaind {
+    position: absolute;
+    z-index: -1;
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100%;
+    display: block;
+    align-self: stretch;
+}
+
+
+
+.btn-info {
+
+    font-size: 18px;
+    color: $White;
+    letter-spacing: 1px;
+    line-height: 15px;
+    border-radius: 40px;
+    background: $blue;
+    transition: all 0.3s ease 0s;
+    width: 250px;
+    height: 50px;
+
+}
+
+.bg-curvy {
+    background-image: url($bg-curvy-mobile);
+    background-repeat: no-repeat;
+    background-position: center bottom;
 }
 
 /*Section Bussiness Information */
@@ -258,6 +334,7 @@ ul li {
 
 @include desktop {
 
+
     /*Section see how*/
     .font-size {
         font-size: 38px;
@@ -276,12 +353,18 @@ ul li {
     }
 
     /*-----*/
-
+    /*---- Testimonials ---- */
     .down-card {
         margin-top: unset;
     }
 
     .down-card-1 {
         margin-top: unset;
+    }
+
+    /**/
+
+    .bg-curvy {
+        background-image: url($bg-curvy-desktop);
     }
 }
