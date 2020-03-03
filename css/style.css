@@ -260,6 +260,9 @@ ul li {
   .down-card-1 {
     margin-top: 20px;
   }
+  .bg-curvy {
+    background-image: url("../images/bg-curvy-desktop.svg");
+  }
 }
 
 @media screen and (min-width: 768px) {

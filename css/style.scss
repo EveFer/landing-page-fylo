@@ -328,6 +328,10 @@ ul li {
     .down-card-1 {
         margin-top: 20px;
     }
+
+    .bg-curvy {
+        background-image: url($bg-curvy-desktop);
+    }
 }
 
 @include desktop {
