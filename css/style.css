@@ -6,6 +6,7 @@
 /*Mixins*/
 body {
   font-family: "Open Sans";
+  font-size: 14px;
 }
 
 header,
@@ -34,7 +35,7 @@ h5 {
   height: 89px;
 }
 
-.logo, .logo-header {
+.logo, .logo-header, .footer-icon-fylo {
   width: 200px;
   height: 89px;
 }
@@ -145,7 +146,127 @@ h5 {
 }
 
 /*------------------*/
+/* Section testimonials*/
+.bg-testimonials {
+  background-color: #202a3c;
+}
+
+.pos-relative {
+  position: relative !important;
+  top: -37px;
+  right: 6px;
+}
+
+.pos-absolute {
+  position: absolute !important;
+  top: -1px;
+}
+
+.down-card {
+  margin-top: 252px;
+}
+
+.down-card-1 {
+  margin-top: 16px;
+}
+
+/*--------SUBSCRIPTION----------*/
+form {
+  background-color: #1c2431;
+  -webkit-box-shadow: 0 0 40px #121923;
+          box-shadow: 0 0 40px #121923;
+  border-radius: 20px;
+  width: 90%;
+  height: auto;
+  margin-bottom: 70px;
+  position: relative;
+  top: 170px;
+}
+
+form:hover {
+  -webkit-box-shadow: 0 0 50px #070f1a;
+          box-shadow: 0 0 50px #070f1a;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+form .form-group .btn {
+  background-color: #339ecc;
+}
+
+form .position-form {
+  position: absolute !important;
+  top: -100px;
+}
+
+/*--------FOOTER----------*/
+footer {
+  padding-top: 60%;
+}
+
+.bg-footer {
+  background-color: #0b1523;
+  margin: 0 !important;
+}
+
+.logo, .logo-header, .footer-icon-fylo {
+  width: 300px;
+  height: 90px;
+}
+
+.icons-footer, .footer-icon-phone, .footer-icon-location, .footer-icon-email, .footer-icon-facebook {
+  width: 50px;
+  height: 25px;
+  display: block;
+  background-repeat: no-repeat;
+}
+
+.footer-icon-fylo {
+  display: block;
+  background-image: url("../images/logo.svg");
+  background-repeat: no-repeat;
+}
+
+.footer-icon-phone {
+  background-image: url("../images/icon-phone.svg");
+}
+
+.footer-icon-location {
+  background-image: url("../images/icon-location.svg");
+}
+
+.footer-icon-email {
+  background-image: url("../images/icon-email.svg");
+}
+
+.footer-icon-facebook {
+  background-image: url("../images/icon-email.svg");
+}
+
+.d-circulo {
+  min-width: 35px;
+  min-height: 35px;
+}
+
+.d-circulo .fab-color {
+  color: white;
+}
+
+ul li {
+  list-style: none;
+}
+
+/*------------------*/
 /*Media Query*/
+@media screen and (min-width: 375px) {
+  .down-card {
+    margin-top: 209px;
+  }
+  .down-card-1 {
+    margin-top: 20px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   /*Section see how*/
   .font-size {
@@ -155,5 +276,21 @@ h5 {
     background-image: url("../images/bg-curvy-desktop.svg");
   }
   /*-----*/
+  form {
+    width: 80%;
+  }
+  .width-email {
+    width: 64%;
+  }
+  .width-submit {
+    width: 32.5%;
+  }
+  /*-----*/
+  .down-card {
+    margin-top: unset;
+  }
+  .down-card-1 {
+    margin-top: unset;
+  }
 }
 /*# sourceMappingURL=style.css.map */
