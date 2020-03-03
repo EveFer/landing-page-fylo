@@ -45,6 +45,12 @@ h5 {
           align-items: flex-end;
 }
 
+.bg-curvy {
+  background-image: url("../images/bg-curvy-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
 /*Header Section*/
 .logo-header {
   background-image: url("../images/logo.svg");
@@ -144,6 +150,9 @@ h5 {
   /*Section see how*/
   .font-size {
     font-size: 38px;
+  }
+  .bg-curvy {
+    background-image: url("../images/bg-curvy-desktop.svg");
   }
   /*-----*/
 }

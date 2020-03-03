@@ -23,7 +23,8 @@ $icon-security: '../images/icon-security.svg';
 $icon-file: '../images/icon-any-file.svg';
 $icon-arrow: '../images/icon-arrow.svg';
 $logo-file: '../images/logo.svg';
-
+$bg-curvy-mobile: '../images/bg-curvy-mobile.svg';
+$bg-curvy-desktop: '../images/bg-curvy-desktop.svg';
 
 /*Mixins*/
 @mixin desktop {
@@ -77,6 +78,14 @@ h5 {
  align-items: flex-end;
     
 }
+
+.bg-curvy {
+    background-image: url($bg-curvy-mobile);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+
 
 /*Header Section*/
 
@@ -194,6 +203,10 @@ h5 {
     .font-size {
         font-size: 38px;
     }
-
+    
+    .bg-curvy {
+        background-image: url($bg-curvy-desktop);
+    }
     /*-----*/
 }
+
