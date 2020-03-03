@@ -82,14 +82,14 @@ h5 {
 .logo {
     width: 200px;
     height: 89px;
-    
-   
+
+
 }
 
 .list-group {
 
- align-items: flex-end;
-    
+    align-items: flex-end;
+
 }
 
 .bg-curvy {
@@ -106,22 +106,22 @@ h5 {
     @extend .logo;
     background-image: url($logo-file);
     background-repeat: no-repeat;
-    
+
 }
 
 
 /*Start Section*/
 
-.text{
+.text {
     display: flex;
     max-width: 500px;
     text-align: center;
-        
-    }
+
+}
 
 .mountaind {
     position: absolute;
-    z-index:-1;
+    z-index: -1;
     margin-left: 0;
     margin-right: 0;
     max-width: 100%;
@@ -131,19 +131,19 @@ h5 {
 
 
 
-    .btn-info {
-        
-        font-size: 18px;
-        color: $White;
-        letter-spacing: 1px;
-        line-height: 15px;
-        border-radius: 40px;
-        background: $blue;
-        transition: all 0.3s ease 0s;
-        width: 250px;
-        height: 50px;
-        
-      }
+.btn-info {
+
+    font-size: 18px;
+    color: $White;
+    letter-spacing: 1px;
+    line-height: 15px;
+    border-radius: 40px;
+    background: $blue;
+    transition: all 0.3s ease 0s;
+    width: 250px;
+    height: 50px;
+
+}
 
 /*Section Bussiness Information */
 
@@ -260,13 +260,9 @@ form {
 }
 
 /*--------FOOTER----------*/
-footer {
-    padding-top: 60%;
-}
 
 .bg-footer {
     background-color: $c-footer-bg;
-    margin: 0 !important;
 }
 
 .logo {
@@ -340,10 +336,11 @@ ul li {
     .font-size {
         font-size: 38px;
     }
-    
+
     .bg-curvy {
         background-image: url($bg-curvy-desktop);
     }
+
     /*-----*/
 
 
